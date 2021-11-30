@@ -1,4 +1,4 @@
-console.log("sup bruh");
+console.log("sup bruh yow");
 var a = document.createElement("A");
 var load_status = 0;
 
