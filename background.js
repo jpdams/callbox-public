@@ -1,4 +1,5 @@
 console.log("sup bruh");
+console.log("edited");
 var a = document.createElement("A");
 var load_status = 0;
 
@@ -31,7 +32,6 @@ var load_status = 0;
 chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 
   load_status = changeInfo.status;
-  console.log(changeInfo.status);
   if (changeInfo.status == "complete") {
     load_status = 1;
 
